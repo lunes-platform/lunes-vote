@@ -1,0 +1,21 @@
+{
+  "name": "lunes_safeguard",
+  "version": "1.0.0",
+  "description": "### Purpose",
+  "main": "index.js",
+  "scripts": {
+    "compile": "typechain-compiler --toolchain nightly",
+    "compile:release": "typechain-compiler --release --toolchain nightly",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@727-ventures/typechain-compiler": "^1.1.4",
+    "@727-ventures/typechain-types": "^1.1.2",
+    "patch-package": "^8.0.0",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.8.0"
+  }
+}

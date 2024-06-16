@@ -1,0 +1,7 @@
+{
+    "projectFiles": ["contracts/vote_lunes/**/*"],
+    "typechainGeneratedPath": "types",
+    "isWorkspace": true,
+    "workspacePath": "./"
+  }
+  
