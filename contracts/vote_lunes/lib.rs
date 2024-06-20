@@ -116,6 +116,9 @@ pub mod vote_lunes{
                 .map_err(|_| PSP22Error::Custom(String::from("Error withdrawing balance, try again")))?;
             self.env().terminate_contract(self.env().caller())
         }
+        pub fn vote_user(&self, to: AccountId) -> u64 {
+            self.vote.get(&to).unwrap_or_default()
+        }
     }
    
 }
